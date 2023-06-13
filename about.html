@@ -4,8 +4,10 @@
 <html>
     <head>
         <title>About</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <style>
-            body{
+            #About {
                 background-color: #f2f2f2;
                 font-family: Arial, Helvetica, sans-serif;
                 background-image: url('https://www.gothamgazette.com/images/graphics/2014/03/NYC.jpg');
@@ -13,7 +15,7 @@
                 height: 100%;
                 background-size: cover;
             }
-            div{
+            .container {
                 background-color: white;
                 width: 50%;
                 margin: auto;
@@ -32,10 +34,8 @@
             }
             
         </style>
-        
     </head>
     <body>
-       
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">CleanAirNYC</a>
@@ -53,17 +53,15 @@
                 </ul>
             </div>
         </nav>
-        <div>
-            <h1>About</h1>
-            <p> New York City had a massive problem with the air quality on june 8th, and we need to find ways to mitigate these issues.
-                <br/>
-                Poor Air Quality can cause many health issues, such as asthma, lung cancer, and heart disease.
-            
-            
-                With our big populations and the amount of cars we have, we need to find ways to reduce the amount of pollution we produce, and have a healthy city.
-            </p>
+        <div id="About">
+            <div id="container">
+                <h1>About</h1>
+                <p> New York City had a massive problem with the air quality on june 8th, and we need to find ways to mitigate these issues.
+                    <br/>
+                    Poor Air Quality can cause many health issues, such as asthma, lung cancer, and heart disease.
+                    With our big populations and the amount of cars we have, we need to find ways to reduce the amount of pollution we produce, and have a healthy city.
+                </p>
+            </div>
         </div>
-
-
     </body>
 </html>
